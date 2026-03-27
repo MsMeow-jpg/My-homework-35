@@ -25,22 +25,23 @@ homework-35/
 └── eslint.config.mjs
  ```
 ---
-⚙️ Functionality
-● Display of Asterix, Obelix, Getafix characters with pictures.
-● Buttons for viewing biographies in a modal window.
-● Audio player for Dogmafix.
-● Support for local fonts via @font-face.
-● Import and use of images and audio via Webpack.
-● SCSS/LESS/CSS integration and modular style structure.
-● TypeScript compilation (test.ts).
-● ES6+ JS transpilation via Babel.
-● Auto-reload of the page via Webpack DevServer.
-● Code linting via ESLint.
-● Bundle size analysis via Webpack Bundle Analyzer.
-● File hashing to avoid cache issues.
+## ⚙️ Functionality
+
+- Display of Asterix, Obelix, Getafix characters with pictures  
+- Buttons for viewing biographies in a modal window  
+- Audio player for Dogmafix  
+- Support for local fonts via @font-face  
+- Import and use of images and audio via Webpack  
+- SCSS/LESS/CSS integration and modular style structure  
+- TypeScript compilation (test.ts)  
+- ES6+ JS transpilation via Babel  
+- Auto-reload via Webpack DevServer  
+- Code linting via ESLint  
+- Bundle size analysis via Webpack Bundle Analyzer  
+- File hashing to avoid cache issues  
 ---
 
-🚀 Installation and launch
+## 🚀 Installation and launch
 
 1. Clone the repository:
 ```git clone <URL-репозиторію>
@@ -59,21 +60,21 @@ The page will open at http://localhost:3000/ with hot-reload.
 The result will appear in the dist/ folder.
 ---
 ## 🛠 Technologies
-● JavaScript (ES6+)
-● TypeScript
-● SCSS / LESS / CSS
-● Webpack 5
-● Babel
-● ESLint
-● Webpack DevServer
-● Webpack Bundle Analyzer
-● Lodash
+- JavaScript (ES6+)
+- TypeScript
+- SCSS / LESS / CSS
+- Webpack 5
+- Babel
+- ESLint
+- Webpack DevServer
+- Webpack Bundle Analyzer
+- Lodash
 ---
-📝 Notes:
-● Font and media files are located in src/assets/.
-● To add new characters, just add an image to images/ and a description to main.js in bios.
-● Modal windows are implemented in pure JS, without third-party libraries.
+## 📝 Notes:
+- Font and media files are located in src/assets/.
+- To add new characters, just add an image to images/ and a description to main.js in bios.
+- Modal windows are implemented in pure JS, without third-party libraries.
 ---
-👩‍💻 Author
+## 👩‍💻 Author
 ---
 Snizhana is a barista, artist and creative person, Asterix & Obelix fan, loves video games and anime.
