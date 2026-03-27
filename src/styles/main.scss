@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'AsterixFont';
+  src: url('../assets/fonts/Cleopatra.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'AsterixFont', sans-serif;
+
+  /* Background */
+  background: url('../assets/images/background.png') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 20px 0;
+
+  h1 {
+    color: #c1121f;
+    text-shadow: 2px 2px black;
+    margin: 0;
+  }
+}
+
+/* Main content */
+main {
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  padding-top: 120px; 
+}
+
+.characters {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  .character {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 150px;
+      cursor: pointer;
+      border: 0;
+      border-radius: 0;
+      transition: transform 0.2s, box-shadow 0.2s;
+
+      /* Shadow only from below */
+      box-shadow: 0 8px 12px -5px rgba(0, 0, 0, 0.6);
+
+      &:hover {
+        transform: scale(1.1);
+        box-shadow: 0 12px 16px -5px rgba(0, 0, 0, 0.7); // чуть больше при наведении
+      }
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 5px 10px;
+      border: none;
+      background: #ffd700;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    button:hover {
+      background: #c1121f;
+      color: #fff;
+    }
+  }
+}
+
+/* Modal window */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+    position: relative;
+  }
+
+  .close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+/* Audio player */
+.dogmafix-player {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+
+  img {
+    width: 80px;
+    cursor: pointer;
+  }
+
+  audio {
+    display: none;
+  }
+}
