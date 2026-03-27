@@ -44,18 +44,22 @@ homework-35/
 ## 🚀 Installation and launch
 
 1. Clone the repository:
-```git clone <URL-репозиторію>
+```
+git clone <URL-репозиторію>
 cd homework-35
 ```
 2. Install dependencies:
-```npm install
+```
+npm install
 ```
 3. Start a local development server:
-```npm start
+```
+npm start
 ```
 The page will open at http://localhost:3000/ with hot-reload.
 4. Assemble the production bundle:
-```npm run build
+```
+npm run build
 ```
 The result will appear in the dist/ folder.
 ---
